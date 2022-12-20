@@ -7,7 +7,7 @@ const HomeBlogSection = () => {
       <div class="flex flex-col gap-16 mt-16 sm:mt-20">
         {
           HighlightblogApi.map(
-            currEle => <HomeHighlightBlog title = {currEle.title} liveLink = {currEle.liveLink} date = {currEle.dateString} />
+            currEle => <HomeHighlightBlog title = {currEle.title} liveLink = {currEle.liveLink} date = {currEle.dateString} description={currEle.description} />
           )
         }
       </div>

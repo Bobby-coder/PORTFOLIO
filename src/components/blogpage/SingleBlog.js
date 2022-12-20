@@ -1,4 +1,4 @@
-const SingleBlog = ({title, liveLink, date}) => {
+const SingleBlog = ({title, liveLink, date, description}) => {
   return (
     <>
       <article class="md:grid md:grid-cols-4 md:items-baseline">
@@ -22,7 +22,7 @@ const SingleBlog = ({title, liveLink, date}) => {
             {date}
           </div>
           <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-            Learn all about JavaScript arrays and its methods in this Article
+            {description}
           </p>
           <div
             aria-hidden="true"

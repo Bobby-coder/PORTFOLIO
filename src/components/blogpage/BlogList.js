@@ -9,7 +9,7 @@ const BlogList = () => {
           <div class="flex max-w-3xl flex-col space-y-16">
             {
               blogApi.map(
-                currEle => <SingleBlog title = {currEle.title} liveLink = {currEle.liveLink} date = {currEle.dateString} />
+                currEle => <SingleBlog title = {currEle.title} liveLink = {currEle.liveLink} date = {currEle.dateString} description = {currEle.description} />
               )
             }
           </div>

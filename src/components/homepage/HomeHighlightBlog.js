@@ -1,4 +1,4 @@
-const HomeHighlightBlog = ({ title, liveLink, date }) => {
+const HomeHighlightBlog = ({ title, liveLink, date, description }) => {
   return (
     <>
       <article class="group relative flex flex-col items-start">
@@ -16,7 +16,7 @@ const HomeHighlightBlog = ({ title, liveLink, date }) => {
           {date}
         </div>
         <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-          Learn all about JavaScript arrays and its methods in this Article
+          {description}
         </p>
         <div class="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500">
           Read article
