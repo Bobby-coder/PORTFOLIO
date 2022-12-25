@@ -8,6 +8,14 @@ const projectApi = [
     },
 
     {
+        title: 'BOOKHUB',
+        liveLink: "https://ebook-hub.netlify.app",
+        githubLink: "https://github.com/Bobby-coder/BOOK-HUB",
+        imgSrc: `/images/bookhub.png`,
+        description: "Implemented a fully responsive responsive Book finder web app. Used Technologies: React JS, Google Book API, TAILWIND CSS."
+    },
+
+    {
         title: 'AMAZON CLONE',
         liveLink: "https://clone-ff7af.web.app",
         githubLink: "https://github.com/Bobby-coder/Amazon-Clone",
@@ -37,14 +45,6 @@ const projectApi = [
         githubLink: "https://github.com/Bobby-coder/PAYTM-UI-CLONE",
         imgSrc: `/images/paytm-clone.webp`,
         description: "Implemented a fully responsive responsive PAYTM UI clone. Used Technologies: HTML, TAILWIND CSS."
-    },
-
-    {
-        title: 'SHOPIFY UI CLONE',
-        liveLink: "https://shopify-web.netlify.app",
-        githubLink: "https://github.com/Bobby-coder/SHOPIFY-UI-CLONE",
-        imgSrc: `/images/shopify-clone.webp`,
-        description: "Implemented a fully responsive responsive SHOPIFY UI clone. Used Technologies: HTML, TAILWIND CSS."
     }
 ]
 
