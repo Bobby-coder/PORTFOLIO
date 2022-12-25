@@ -8,6 +8,7 @@ import ProjectPage from "./pages/ProjectPage"
 function App() {
   return (
     <>
+    <div className="dark:bg-[#18181B]">
     <Router>
     <Header />
       <Routes>
@@ -17,6 +18,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </div>
     </>
   );
 }
