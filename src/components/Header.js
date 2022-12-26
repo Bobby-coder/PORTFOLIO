@@ -23,7 +23,7 @@ const Header = () => {
     <>
       <div className="flex justify-between mx-auto pt-6 px-4 sm:px-16 md:px-0 md:max-w-2xl lg:px-28 lg:max-w-7xl xl:px-32">
         <div className="h-10 w-10 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10">
-          <NavLink className="pointer-events-auto" to="/">
+          <NavLink to="/">
             <img
               src="/images/dp.png"
               className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-9 w-9"
@@ -32,7 +32,7 @@ const Header = () => {
         </div>
 
         <div className="flex flex-1 justify-end md:justify-center">
-          <div className="pointer-events-auto md:hidden">
+          <div className="md:hidden">
             <button
               onClick={() => setToggleNav(true)}
               className="group flex items-center rounded-full bg-white/90 px-4 py-[9.6px] text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
@@ -53,7 +53,7 @@ const Header = () => {
               </svg>
             </button>
           </div>
-          <nav className="pointer-events-auto hidden md:block">
+          <nav className="hidden md:block">
             <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
               <li>
                 <NavLink

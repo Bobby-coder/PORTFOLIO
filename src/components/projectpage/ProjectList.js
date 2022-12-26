@@ -4,8 +4,8 @@ import projectApi from "../../api/projectApi";
 const ProjectList = () => {
   return (
     <>
-      <div class="mt-16 sm:mt-20">
-        <div class="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-16 sm:mt-20">
+        <div className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
           {projectApi.map((currEle) => (
             <SingleProject
               title={currEle.title}
