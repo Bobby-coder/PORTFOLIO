@@ -87,7 +87,7 @@ const Header = () => {
             onClick={handleTheme}
             className={
               theme === "light"
-                ? "rounded-full text-white bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
+                ? "rounded-full text-teal-500 bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
                 : "hidden"
             }
           >
@@ -98,7 +98,7 @@ const Header = () => {
             onClick={handleTheme}
             className={
               theme === "dark"
-                ? "rounded-full text-teal-500 bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
+                ? "rounded-full text-white bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
                 : "hidden"
             }
           >
